@@ -1,0 +1,91 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #15192B;
+  width: 1920px;
+  height: 50px;
+}
+
+.headerLeft {
+display: flex;
+width: 150px;
+height: 50px;
+}
+
+.geo {
+position: absolute;
+align-items: center;
+display: flex;
+width: 50px;
+height: 50px;
+left: 874px;
+top: 15px;
+border-radius: 10px;
+}
+
+.nameTable {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.time{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 20px;
+  gap: 10px;
+  
+  position: absolute;
+  width: 108px;
+  height: 40px;
+  left: 1670px;
+  top: calc(50% - 40px/2);
+  
+  background: #30375B;
+  border-radius: 10px;
+  }
+
+.timer {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 1788px;
+  top: 0px;
+  
+  border-radius: 10px;
+  }
+
+.workSpace {
+background-color: violet;
+width: 50px;
+height: 50px;
+}
+
+.drawBoard{
+background-color: rgba(219, 28, 28, 0.699);
+width: 50px;
+height: 50px;
+}
+
+.tools {
+background-color: salmon;
+width: 50px;
+height: 50px;
+
+}
+
+.students {
+  background-color: lightsalmon;
+  width: 50px;
+  height: 50px;
+}
+
+.bottomBar {
+  background-color: lightslategrey;
+  width: 50px;
+  height: 50px;
+}
